@@ -106,6 +106,25 @@ const experiences = [
 ];
 
 const projects = [
+
+  {
+    title: "Clinica Medical Platform",
+    description:
+      "A comprehensive medical platform for booking appointments, managing patient records, and providing telemedicine services.",
+    tech: ["React", "Material-UI", "Framer", "TailWildCss"],
+    image: "/Clinica.png",
+    github: "#",
+    live: "https://clinica-web-cyan.vercel.app/",
+  },
+  {
+    title: "E-Commerce WebSite",
+    description:
+      "A modern e-commerce platform built for seamless shopping experiences, featuring product listings, filtering, a shopping cart, secure checkout, and responsive design.",
+    tech: ["React", "Next.js","Redux ToolKit", "Tailwind CSS" , "Framer"],
+    image: "/ecomm.png",
+    github: "#",
+    live: "https://e-commerce-chi-ten-82.vercel.app/",
+  },
   {
     title: "Code Wars ",
     description:
@@ -116,19 +135,10 @@ const projects = [
     live: "https://luminous-beijinho-8a9708.netlify.app/",
   },
   {
-    title: "Clinica Medical Platform",
-    description:
-      "A comprehensive medical platform for booking appointments, managing patient records, and providing telemedicine services.",
-    tech: ["React", "Material-UI", "Firebase", "JavaScript"],
-    image: "/Clinica.png",
-    github: "#",
-    live: "https://sunny-froyo-66bda4.netlify.app/",
-  },
-  {
     title: "Shopping Cart",
     description:
       "A responsive shopping cart application that allows users to add, remove, and manage products in their cart.",
-    tech: ["HTML5", "CSS3", "JavaScript", "React"],
+    tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/Shop.png",
     github: "#",
     live: "https://reyad2002.github.io/shop/",
@@ -137,7 +147,7 @@ const projects = [
     title: "Food Blog",
     description:
       "A modern, responsive blog website showcasing articles and tutorials with smooth animations and interactive elements.",
-    tech: ["Next.js", "Framer Motion", "Tailwind CSS"],
+    tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/Food.png",
     github: "#",
     live: "https://reyad2002.github.io/food-blog1/",
