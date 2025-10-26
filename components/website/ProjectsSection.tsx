@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -9,11 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  Github,
-  ExternalLink,
-
-} from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
   animate: { opacity: 1, y: 0 },
@@ -47,6 +43,24 @@ const staggerContainer = {
 };
 
 const projects = [
+  {
+    title: "Regenx Medical Platform",
+    description:
+      "A unified medical platform for scheduling, patient records, and secure telemedicine. Built to streamline clinic workflows and improve patient experience.",
+    tech: ["Next JS", "ShadCn", "Framer", "TailWildCss", "Node JS"],
+    image: "/regenx.png",
+    github: "#",
+    live: "https://regenx-frontend.vercel.app/",
+  },
+  {
+    title: "UpStays - Real Estate Platform",
+    description:
+      "Modern real-estate platform to discover and book properties with fast search, advanced filters (price, location, beds), map-ready layout, wishlists, and a responsive, SEO-friendly UI.",
+    tech: ["Next.js", "Material UI", "Framer Motion", "Tailwind CSS"],
+    image: "upstays.png",
+    github: "#",
+    live: "https://upstays-frontend.vercel.app/home",
+  },
   {
     title: "Clinica Medical Platform",
     description:
@@ -97,7 +111,7 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <div>
-         <section
+      <section
         id="projects"
         className="py-20 px-4 bg-slate-900 overflow-hidden"
       >
@@ -106,6 +120,10 @@ const ProjectsSection = () => {
             <h2 className="text-4xl font-bold text-white mb-4">
               Featured Projects
             </h2>
+            <p className="text-white mb-3">
+              {" "}
+              Clean UI • Smooth interactions • Production-minded structure{" "}
+            </p>
             <div className="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto"></div>
           </motion.div>
 
@@ -202,7 +220,7 @@ const ProjectsSection = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

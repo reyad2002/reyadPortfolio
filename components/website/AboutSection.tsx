@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 import {
   ArrowDown,
@@ -27,7 +27,6 @@ const fadeInRight = {
   animate: { opacity: 1, x: 0 },
   transition: { duration: 0.6 },
 };
-
 
 const staggerContainer = {
   animate: {
@@ -92,20 +91,18 @@ const AboutSection = () => {
               variants={fadeInRight}
             >
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Passionate Frontend Developer
+                Passionate Full Stack Developer
               </h3>
               <p className="text-slate-300 mb-6 leading-relaxed">
-                I'm a dedicated frontend developer with a passion for creating
-                beautiful, functional, and user-friendly web applications. With
-                expertise in modern JavaScript frameworks and a keen eye for
-                design, I bring ideas to life through clean, efficient code.
+                I build fast, accessible, and user-friendly web apps end-to-end.
+                I care about clean architecture, maintainable code, and turning
+                ideas into polished, reliable products.
               </p>
               <p className="text-slate-300 mb-6 leading-relaxed">
-                My journey in web development has equipped me with strong skills
-                in React, Next.js, and various CSS frameworks. I also have
-                foundational knowledge in Java and Object-Oriented Programming,
-                which helps me understand the bigger picture of software
-                development.
+                My toolkit includes React, Next.js, TypeScript, and Tailwind on
+                the front end, with Node.js/Express, REST/GraphQL APIs, and
+                MongoDB/PostgreSQL on the back end. I enjoy shipping features
+                that are scalable, well-tested, and easy to iterate on.
               </p>
               <motion.div
                 className="flex flex-wrap gap-4"
@@ -148,9 +145,9 @@ const AboutSection = () => {
             </motion.div>
           </div>
         </div>
-      </section>        
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;

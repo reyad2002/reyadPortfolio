@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 
@@ -26,12 +26,6 @@ const scaleIn = {
   transition: { duration: 0.6 },
 };
 
-const slideInFromBottom = {
-  initial: { opacity: 0, y: 100 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8 },
-};
-
 const staggerContainer = {
   animate: {
     transition: {
@@ -40,13 +34,6 @@ const staggerContainer = {
   },
 };
 
-const cardHover = {
-  hover: {
-    scale: 1.05,
-    y: -10,
-    transition: { duration: 0.3 },
-  },
-};
 const experiences = [
   {
     year: "2024",
@@ -57,7 +44,7 @@ const experiences = [
     technologies: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    year: "2025",
+    year: "2024",
     title: "Advanced Frontend Skills",
     description:
       "Mastered React and modern JavaScript frameworks. Started building dynamic web applications and learned responsive design principles.",
@@ -66,17 +53,26 @@ const experiences = [
   },
   {
     year: "2025",
-    title: "Professional Development",
+    title: "Professional Development (Full-Stack)",
     description:
-      "Expanded expertise to Next.js, Tailwind CSS, and Material-UI. Completed several freelance projects and internship opportunities.",
+      "Expanded expertise to Next.js, Tailwind CSS, and Material-UI. Added back-end skills with Node.js and Express to build secure RESTful APIs.",
     type: "experience",
-    technologies: ["Next.js", "Tailwind CSS", "Material-UI"],
+    technologies: ["Next.js", "Tailwind CSS", "Material-UI", "Node.js", "Express"],
+  },
+  {
+    year: "2025",
+    title: "API & Database Integration",
+    description:
+      "Designed and deployed full-stack projects with authentication, role-based access, and data modeling. Integrated MongoDB and PostgreSQL, optimized queries, and handled migrations.",
+    type: "experience",
+    technologies: ["REST APIs", "MongoDB", "PostgreSQL", "Prisma/ODM", "JWT/Auth"],
   },
 ];
+
 const MyJourney = () => {
   return (
     <div>
- <section
+      <section
         id="experience"
         className="py-20 px-4 bg-slate-900 relative overflow-hidden"
       >
@@ -180,9 +176,8 @@ const MyJourney = () => {
           </div>
         </div>
       </section>
-
     </div>
-  )
-}
+  );
+};
 
-export default MyJourney
+export default MyJourney;

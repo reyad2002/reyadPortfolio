@@ -1,22 +1,9 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   eslint: {
-//     ignoreDuringBuilds: true,
-//   },
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-//   images: {
-//     unoptimized: true,
-//   },
-// }
-
-// export default nextConfig
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ✅ Enables static HTML export
-  reactStrictMode: true,
-  trailingSlash: true, // Optional: good for static hosting
+  images: {
+    domains: ["images.example.com"], // لو بتجيب صور من برّه
+  },
 };
 
 export default nextConfig;

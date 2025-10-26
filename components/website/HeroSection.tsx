@@ -1,18 +1,12 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
-import {
-  ArrowDown,
-  Github,
-  Linkedin,
-  Mail,
-  Download,
-} from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
     <div>
-        <section
+      <section
         id="home"
         className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden pt-20"
       >
@@ -41,10 +35,10 @@ const HeroSection = () => {
               <span className="text-slate-300">Available For Work</span>
             </div>
             <p className="text-slate-300 max-w-2xl mx-auto leading-relaxed mb-8">
-              Hello, My Name Is Reyad Mohamed Fathy. I Am A Full Stack
-              Developer, And Within A Year I Will Be A Back-End Developer, And
-              Then I Will Become A Full-Stack Developer. I Love Learning And
-              Developing Myself To Provide The Highest Quality In My Work.
+              Hello, my name is Reyad Mohamed Fathy. I’m a Full-Stack Developer
+              focused on clean architecture, performance, and great DX/UX. I’m
+              constantly learning to ship high-quality, scalable features—from
+              robust back-end APIs to polished front-end interfaces.
             </p>
           </motion.div>
 
@@ -147,7 +141,7 @@ const HeroSection = () => {
         >
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-cyan-400/50">
             <img
-              src="/placeholder.svg?height=128&width=128"
+              src="Reyad.jpg"
               alt="Reyad Mohamed Fathy"
               className="w-full h-full object-cover"
             />
@@ -155,7 +149,7 @@ const HeroSection = () => {
         </motion.div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
