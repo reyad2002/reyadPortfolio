@@ -141,7 +141,7 @@ const HeroSection = () => {
         >
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-cyan-400/50">
             <img
-              src="Reyad.jpg"
+              src="reyad2.jpg"
               alt="Reyad Mohamed Fathy"
               className="w-full h-full object-cover"
             />

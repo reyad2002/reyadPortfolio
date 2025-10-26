@@ -75,7 +75,7 @@ const AboutSection = () => {
                 >
                   <div className="w-full h-full bg-slate-800 rounded-full flex items-center justify-center">
                     <img
-                      src="Reyad.jpg"
+                      src="reyad2.jpg"
                       alt="Reyad Mohamed Fathy"
                       className="w-72 h-72 rounded-full object-cover"
                     />
