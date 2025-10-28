@@ -68,8 +68,9 @@ const projects = [
     tech: ["React", "Material-UI", "Framer", "TailWildCss"],
     image: "/Clinica.png",
     github: "#",
-    live: "https://clinica-web-cyan.vercel.app/",
+    live: "https://clinica-bookingsystem-frontend-o6ky1i2f1-codewarsegypt.vercel.app/",
   },
+  
   {
     title: "E-Commerce WebSite",
     description:
