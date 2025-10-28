@@ -44,6 +44,40 @@ const staggerContainer = {
 
 const projects = [
   {
+    title: "AbuDabbab Ticketing System ",
+    description:
+      "QR-based Ticketing System for events and tours with instant e-tickets, secure check-in, and real-time validation. Includes a full admin dashboard for inventory, pricing, scans, and analytics.",
+    tech: [
+      "Next JS",
+      "ShadCn",
+      "Framer",
+      "TailWildCss",
+      "Node JS",
+      "Express",
+      "MongoDB",
+    ],
+    image: "/abudabba.png",
+    github: "#",
+    live: "https://abudabbab-frontend-y3jp.vercel.app/dashboard/login",
+  },
+  {
+    title: "UpStays - Real Estate Platform",
+    description:
+      "Modern real-estate platform to discover and book properties with fast search, advanced filters (price, location, beds), map-ready layout, wishlists, and a responsive, SEO-friendly UI — plus a full-featured admin dashboard for managing listings, bookings, users, and reports.",
+    tech: [
+      "Next.js",
+      "Material UI",
+      "Framer Motion",
+      "Tailwind CSS",
+      "Node JS",
+      "Express",
+      "MongoDB",
+    ],
+    image: "upstays.png",
+    github: "#",
+    live: "https://upstays-frontend.vercel.app/home",
+  },
+  {
     title: "Regenx Medical Platform",
     description:
       "A unified medical platform for scheduling, patient records, and secure telemedicine. Built to streamline clinic workflows and improve patient experience.",
@@ -53,14 +87,15 @@ const projects = [
     live: "https://regenx-frontend.vercel.app/",
   },
   {
-    title: "UpStays - Real Estate Platform",
+    title: "The Secret Of The Desert",
     description:
-      "Modern real-estate platform to discover and book properties with fast search, advanced filters (price, location, beds), map-ready layout, wishlists, and a responsive, SEO-friendly UI.",
-    tech: ["Next.js", "Material UI", "Framer Motion", "Tailwind CSS"],
-    image: "upstays.png",
+      "A desert safari booking platform offering buggy and 4×4 tours, Bedouin village visits, and dinner under the stars. Supports multi-role access (Admin/Employee/Supplier), real-time booking tracking, and secure payments with instant notifications.",
+    tech: ["Next JS", "Framer", "TailWildCss", "Node JS"],
+    image: "/desert.png",
     github: "#",
-    live: "https://upstays-frontend.vercel.app/home",
+    live: "https://desert-kappa.vercel.app/",
   },
+
   {
     title: "Clinica Medical Platform",
     description:
@@ -70,7 +105,7 @@ const projects = [
     github: "#",
     live: "https://clinica-bookingsystem-frontend-o6ky1i2f1-codewarsegypt.vercel.app/",
   },
-  
+
   {
     title: "E-Commerce WebSite",
     description:
