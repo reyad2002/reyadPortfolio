@@ -36,7 +36,7 @@ const staggerContainer = {
 
 const experiences = [
   {
-    year: "2024",
+    year: "2023",
     title: "Started Web Development Journey",
     description:
       "Began learning HTML, CSS, and JavaScript fundamentals. Built first static websites and discovered passion for frontend development.",
